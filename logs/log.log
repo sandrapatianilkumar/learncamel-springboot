@@ -1,0 +1,623 @@
+05-11-2019 08:34:11.071 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.learncamel.LearncamelSpringbootApplicationTests], using SpringBootContextLoader
+05-11-2019 08:34:11.103 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.learncamel.LearncamelSpringbootApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+05-11-2019 08:34:11.107 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.learncamel.LearncamelSpringbootApplicationTests]: LearncamelSpringbootApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+05-11-2019 08:34:11.509 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.learncamel.LearncamelSpringbootApplication for test class com.learncamel.LearncamelSpringbootApplicationTests
+05-11-2019 08:34:11.833 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+05-11-2019 08:34:11.915 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5136d012, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5939a379, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@e1de817, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@52102734, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3541cb24, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2177849e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@40cb8df7, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@13b13b5d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2892dae4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@355ce81c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@29647f75, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3315d2d7]
+05-11-2019 08:34:13.013 [main] INFO  c.l.LearncamelSpringbootApplicationTests.logStarting - Starting LearncamelSpringbootApplicationTests on DESKTOP-NIQJ2O8 with PID 12200 (started by Anil Sandrapati in C:\Users\Anil Sandrapati\Downloads\simple-rest-api\learncamel-springboot)
+05-11-2019 08:34:13.015 [main] INFO  c.l.LearncamelSpringbootApplicationTests.logStartupProfileInfo - The following profiles are active: dev
+05-11-2019 08:34:16.857 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$233e9265] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+05-11-2019 08:34:19.066 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+05-11-2019 08:34:20.805 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 195, classpath: 1)
+05-11-2019 08:34:22.886 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - Starting the camel route
+05-11-2019 08:34:23.273 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - ending the camel route
+05-11-2019 08:34:23.275 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+05-11-2019 08:34:23.277 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+05-11-2019 08:34:23.331 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.24.0 (CamelContext: camel-1) is starting
+05-11-2019 08:34:23.340 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+05-11-2019 08:34:24.282 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+05-11-2019 08:34:24.472 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: timer://hello?period=10s
+05-11-2019 08:34:24.474 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 1 routes, of which 1 are started
+05-11-2019 08:34:24.476 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.24.0 (CamelContext: camel-1) started in 1.172 seconds
+05-11-2019 08:34:24.514 [main] INFO  c.l.LearncamelSpringbootApplicationTests.logStarted - Started LearncamelSpringbootApplicationTests in 12.453 seconds (JVM running for 15.041)
+05-11-2019 08:34:25.288 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.learncamel.route.SimpleCamelRouteTest], using SpringBootContextLoader
+05-11-2019 08:34:25.291 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.learncamel.route.SimpleCamelRouteTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+05-11-2019 08:34:25.292 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.learncamel.route.SimpleCamelRouteTest]: SimpleCamelRouteTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+05-11-2019 08:34:25.315 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.learncamel.LearncamelSpringbootApplication for test class com.learncamel.route.SimpleCamelRouteTest
+05-11-2019 08:34:25.319 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+05-11-2019 08:34:25.320 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@61ff6a49, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@18dd5ed3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6042d663, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@24043ec5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3e33b52e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4c6a4ffd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3aed69dd, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3f1a9a53, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1ca3d25b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2287395, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@535a518c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@38f981b6]
+05-11-2019 08:34:25.418 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.prepareTestInstance - @RunWith(CamelSpringBootRunner.class) preparing: class com.learncamel.route.SimpleCamelRouteTest
+05-11-2019 08:34:25.509 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer invoked and the body DEV message
+05-11-2019 08:34:25.546 [main] INFO  c.l.route.SimpleCamelRouteTest.logStarting - Starting SimpleCamelRouteTest on DESKTOP-NIQJ2O8 with PID 12200 (started by Anil Sandrapati in C:\Users\Anil Sandrapati\Downloads\simple-rest-api\learncamel-springboot)
+05-11-2019 08:34:25.549 [main] INFO  c.l.route.SimpleCamelRouteTest.logStartupProfileInfo - The following profiles are active: dev
+05-11-2019 08:34:26.614 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$233e9265] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+05-11-2019 08:34:27.371 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+05-11-2019 08:34:27.752 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 195, classpath: 1)
+05-11-2019 08:34:28.927 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - Starting the camel route
+05-11-2019 08:34:28.939 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - ending the camel route
+05-11-2019 08:34:28.940 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+05-11-2019 08:34:28.941 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+05-11-2019 08:34:28.969 [main] INFO  c.l.route.SimpleCamelRouteTest.logStarted - Started SimpleCamelRouteTest in 3.508 seconds (JVM running for 19.497)
+05-11-2019 08:34:28.978 [main] INFO  o.a.c.t.s.CamelAnnotationsHandler.execute - Setting shutdown timeout to [10 SECONDS] on CamelContext with name [camelContext].
+05-11-2019 08:34:29.057 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.beforeTestMethod - @RunWith(CamelSpringBootRunner.class) before: class com.learncamel.route.SimpleCamelRouteTest.testMoveFile
+05-11-2019 08:34:29.059 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.beforeTestMethod - Initialized CamelSpringBootRunner now ready to start CamelContext
+05-11-2019 08:34:29.062 [main] INFO  o.a.c.t.s.CamelAnnotationsHandler.execute - Starting CamelContext with name [camelContext].
+05-11-2019 08:34:29.067 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.24.0 (CamelContext: camel-2) is starting
+05-11-2019 08:34:29.070 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+05-11-2019 08:34:29.298 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+05-11-2019 08:34:29.374 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route2 started and consuming from: timer://hello?period=10s
+05-11-2019 08:34:29.389 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 1 routes, of which 1 are started
+05-11-2019 08:34:29.401 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.24.0 (CamelContext: camel-2) started in 0.336 seconds
+05-11-2019 08:34:30.390 [Camel (camel-2) thread #2 - timer://hello] INFO  route2.log - Timer invoked and the body DEV message
+05-11-2019 08:34:32.587 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.24.0 (CamelContext: camel-2) is shutting down
+05-11-2019 08:34:32.588 [main] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Starting to graceful shutdown 1 routes (timeout 10 seconds)
+05-11-2019 08:34:32.610 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 10 seconds. Inflights per route: [route2 = 1]
+05-11-2019 08:34:32.618 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-1-2, fromRouteId=route2, routeId=route2, nodeId=pollEnrich2, elapsed=0, duration=2228]
+05-11-2019 08:34:33.624 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 9 seconds. Inflights per route: [route2 = 1]
+05-11-2019 08:34:33.624 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-1-2, fromRouteId=route2, routeId=route2, nodeId=pollEnrich2, elapsed=0, duration=3234]
+05-11-2019 08:34:34.626 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 8 seconds. Inflights per route: [route2 = 1]
+05-11-2019 08:34:34.626 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-1-2, fromRouteId=route2, routeId=route2, nodeId=pollEnrich2, elapsed=0, duration=4236]
+05-11-2019 08:34:35.474 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer invoked and the body DEV message
+05-11-2019 08:34:35.626 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 7 seconds. Inflights per route: [route2 = 1]
+05-11-2019 08:34:35.626 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-1-2, fromRouteId=route2, routeId=route2, nodeId=pollEnrich2, elapsed=0, duration=5236]
+05-11-2019 08:34:36.627 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 6 seconds. Inflights per route: [route2 = 1]
+05-11-2019 08:34:36.628 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-1-2, fromRouteId=route2, routeId=route2, nodeId=pollEnrich2, elapsed=0, duration=6238]
+05-11-2019 08:34:37.630 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 5 seconds. Inflights per route: [route2 = 1]
+05-11-2019 08:34:37.630 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-1-2, fromRouteId=route2, routeId=route2, nodeId=pollEnrich2, elapsed=0, duration=7240]
+05-11-2019 08:34:38.631 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 4 seconds. Inflights per route: [route2 = 1]
+05-11-2019 08:34:38.631 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-1-2, fromRouteId=route2, routeId=route2, nodeId=pollEnrich2, elapsed=0, duration=8241]
+05-11-2019 08:34:39.633 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 3 seconds. Inflights per route: [route2 = 1]
+05-11-2019 08:34:39.633 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-1-2, fromRouteId=route2, routeId=route2, nodeId=pollEnrich2, elapsed=0, duration=9243]
+05-11-2019 08:34:40.633 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 2 seconds. Inflights per route: [route2 = 1]
+05-11-2019 08:34:40.638 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-1-2, fromRouteId=route2, routeId=route2, nodeId=pollEnrich2, elapsed=0, duration=10248]
+05-11-2019 08:34:41.640 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 1 seconds. Inflights per route: [route2 = 1]
+05-11-2019 08:34:41.640 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-1-2, fromRouteId=route2, routeId=route2, nodeId=pollEnrich2, elapsed=0, duration=11250]
+05-11-2019 08:34:42.598 [Camel (camel-2) thread #3 - ShutdownTask] WARN  o.a.c.impl.DefaultShutdownStrategy.run - Interrupted while waiting during graceful shutdown, will force shutdown now.
+05-11-2019 08:34:42.598 [main] WARN  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Timeout occurred during graceful shutdown. Forcing the routes to be shutdown now. Notice: some resources may still be running as graceful shutdown did not complete successfully.
+05-11-2019 08:34:42.598 [main] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-1-2, fromRouteId=route2, routeId=route2, nodeId=pollEnrich2, elapsed=0, duration=12208]
+05-11-2019 08:34:42.599 [main] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Graceful shutdown of 1 routes completed in 10 seconds
+05-11-2019 08:34:42.606 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route2 shutdown complete, was consuming from: timer://hello?period=10s
+05-11-2019 08:34:42.613 [main] WARN  o.a.c.impl.DefaultInflightRepository.doStop - Shutting down while there are still 1 inflight exchanges.
+05-11-2019 08:34:42.623 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.24.0 (CamelContext: camel-2) uptime 13.558 seconds
+05-11-2019 08:34:42.623 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.24.0 (CamelContext: camel-2) is shutdown in 10.036 seconds
+05-11-2019 08:34:42.631 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+05-11-2019 08:34:42.634 [main] INFO  c.l.route.SimpleCamelRouteTest.afterTestMethod - ********************************************************************************
+05-11-2019 08:34:42.635 [main] INFO  c.l.route.SimpleCamelRouteTest.afterTestMethod - Testing done: testMoveFile(com.learncamel.route.SimpleCamelRouteTest)
+05-11-2019 08:34:42.635 [main] INFO  c.l.route.SimpleCamelRouteTest.afterTestMethod - Took: 13.222 seconds (13222 millis)
+05-11-2019 08:34:42.636 [main] INFO  c.l.route.SimpleCamelRouteTest.afterTestMethod - ********************************************************************************
+05-11-2019 08:34:42.637 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.afterTestMethod - @RunWith(CamelSpringBootRunner.class) after: class com.learncamel.route.SimpleCamelRouteTest.testMoveFile
+05-11-2019 08:34:42.664 [Thread-3] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.24.0 (CamelContext: camel-1) is shutting down
+05-11-2019 08:34:42.664 [Thread-3] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Starting to graceful shutdown 1 routes (timeout 300 seconds)
+05-11-2019 08:34:42.666 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 300 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:34:42.667 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=7193]
+05-11-2019 08:34:42.944 [Camel (camel-2) thread #2 - timer://hello] WARN  o.a.c.component.timer.TimerConsumer.log - Error processing exchange. Exchange[ID-DESKTOP-NIQJ2O8-1572923060203-1-2]. Caused by: [java.util.concurrent.RejectedExecutionException - Run not allowed as ShutdownStrategy is forcing shutting down, will reject executing exchange: Exchange[ID-DESKTOP-NIQJ2O8-1572923060203-1-2]]
+java.util.concurrent.RejectedExecutionException: Run not allowed as ShutdownStrategy is forcing shutting down, will reject executing exchange: Exchange[ID-DESKTOP-NIQJ2O8-1572923060203-1-2]
+	at org.apache.camel.processor.CamelInternalProcessor.continueProcessing(CamelInternalProcessor.java:289)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:137)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.timer.TimerConsumer.sendTimerExchange(TimerConsumer.java:197)
+	at org.apache.camel.component.timer.TimerConsumer$1.run(TimerConsumer.java:79)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+05-11-2019 08:34:43.671 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 299 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:34:43.674 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=8200]
+05-11-2019 08:34:44.675 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 298 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:34:44.675 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=9201]
+05-11-2019 08:34:45.677 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 297 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:34:45.677 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=10203]
+05-11-2019 08:34:46.678 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 296 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:34:46.678 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=11204]
+05-11-2019 08:34:47.679 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 295 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:34:47.679 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=12205]
+05-11-2019 08:34:48.679 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 294 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:34:48.679 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=13205]
+05-11-2019 08:34:49.680 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 293 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:34:49.680 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=14206]
+05-11-2019 08:34:50.680 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 292 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:34:50.680 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=15206]
+05-11-2019 08:34:51.682 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 291 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:34:51.682 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=16208]
+05-11-2019 08:34:52.683 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 290 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:34:52.683 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=17209]
+05-11-2019 08:34:53.683 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 289 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:34:53.684 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=18210]
+05-11-2019 08:34:54.685 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 288 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:34:54.685 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=19211]
+05-11-2019 08:34:55.685 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 287 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:34:55.685 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=20211]
+05-11-2019 08:34:56.687 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 286 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:34:56.687 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=21213]
+05-11-2019 08:34:57.687 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 285 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:34:57.687 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=22213]
+05-11-2019 08:34:58.687 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 284 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:34:58.687 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=23213]
+05-11-2019 08:34:59.689 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 283 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:34:59.689 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=24215]
+05-11-2019 08:35:00.690 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 282 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:35:00.691 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=25217]
+05-11-2019 08:35:01.693 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 281 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:35:01.693 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=26219]
+05-11-2019 08:35:02.695 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 280 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:35:02.695 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=27221]
+05-11-2019 08:35:03.695 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 279 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:35:03.695 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=28221]
+05-11-2019 08:35:04.695 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 278 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:35:04.695 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=29221]
+05-11-2019 08:35:05.696 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 277 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:35:05.696 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=30222]
+05-11-2019 08:35:06.697 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 276 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:35:06.699 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=31223]
+05-11-2019 08:35:07.700 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 275 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:35:07.700 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=32226]
+05-11-2019 08:35:08.701 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 274 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:35:08.701 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=33227]
+05-11-2019 08:35:09.703 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 273 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:35:09.703 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=34229]
+05-11-2019 08:35:10.704 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 272 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:35:10.704 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=35230]
+05-11-2019 08:35:11.706 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 271 seconds. Inflights per route: [route1 = 1]
+05-11-2019 08:35:11.707 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572923060203-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=36233]
+05-11-2019 08:48:51.722 [main] INFO  c.l.LearncamelSpringbootApplication.logStarting - Starting LearncamelSpringbootApplication on DESKTOP-NIQJ2O8 with PID 10244 (started by Anil Sandrapati in C:\Users\Anil Sandrapati\Downloads\simple-rest-api\learncamel-springboot)
+05-11-2019 08:48:51.744 [main] INFO  c.l.LearncamelSpringbootApplication.logStartupProfileInfo - The following profiles are active: dev
+05-11-2019 08:48:54.483 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$f7e21996] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+05-11-2019 08:48:55.298 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8181 (http)
+05-11-2019 08:48:55.339 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8181"]
+05-11-2019 08:48:55.363 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+05-11-2019 08:48:55.365 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.26]
+05-11-2019 08:48:55.715 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+05-11-2019 08:48:55.715 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3814 ms
+05-11-2019 08:48:56.273 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+05-11-2019 08:48:56.764 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 195, classpath: 1)
+05-11-2019 08:48:57.286 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - Starting the camel route
+05-11-2019 08:48:57.396 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - ending the camel route
+05-11-2019 08:48:57.397 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+05-11-2019 08:48:57.398 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+05-11-2019 08:48:57.415 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.24.0 (CamelContext: camel-1) is starting
+05-11-2019 08:48:57.418 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+05-11-2019 08:48:57.869 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+05-11-2019 08:48:57.987 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: timer://hello?period=10s
+05-11-2019 08:48:57.990 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 1 routes, of which 1 are started
+05-11-2019 08:48:57.997 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.24.0 (CamelContext: camel-1) started in 0.581 seconds
+05-11-2019 08:48:58.001 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8181"]
+05-11-2019 08:48:58.058 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8181 (http) with context path ''
+05-11-2019 08:48:58.065 [main] INFO  c.l.LearncamelSpringbootApplication.logStarted - Started LearncamelSpringbootApplication in 7.65 seconds (JVM running for 9.474)
+05-11-2019 08:48:58.310 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.3.8.Final}
+05-11-2019 08:48:58.314 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+05-11-2019 08:48:59.004 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer invoked and the body DEV message
+05-11-2019 08:49:44.446 [main] INFO  c.l.LearncamelSpringbootApplication.logStarting - Starting LearncamelSpringbootApplication on DESKTOP-NIQJ2O8 with PID 16828 (started by Anil Sandrapati in C:\Users\Anil Sandrapati\Downloads\simple-rest-api\learncamel-springboot)
+05-11-2019 08:49:44.457 [main] INFO  c.l.LearncamelSpringbootApplication.logStartupProfileInfo - The following profiles are active: dev
+05-11-2019 08:49:47.823 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$943a87e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+05-11-2019 08:49:48.685 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8181 (http)
+05-11-2019 08:49:48.720 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8181"]
+05-11-2019 08:49:48.744 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+05-11-2019 08:49:48.746 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.26]
+05-11-2019 08:49:49.028 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+05-11-2019 08:49:49.029 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4389 ms
+05-11-2019 08:49:49.637 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+05-11-2019 08:49:50.158 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 195, classpath: 1)
+05-11-2019 08:49:50.770 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - Starting the camel route
+05-11-2019 08:49:50.882 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - ending the camel route
+05-11-2019 08:49:50.884 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+05-11-2019 08:49:50.885 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+05-11-2019 08:49:50.899 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.24.0 (CamelContext: camel-1) is starting
+05-11-2019 08:49:50.901 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+05-11-2019 08:49:51.338 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+05-11-2019 08:49:51.430 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: timer://hello?period=10s
+05-11-2019 08:49:51.432 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 1 routes, of which 1 are started
+05-11-2019 08:49:51.434 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.24.0 (CamelContext: camel-1) started in 0.534 seconds
+05-11-2019 08:49:51.437 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8181"]
+05-11-2019 08:49:51.483 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8181 (http) with context path ''
+05-11-2019 08:49:51.489 [main] INFO  c.l.LearncamelSpringbootApplication.logStarted - Started LearncamelSpringbootApplication in 8.255 seconds (JVM running for 9.742)
+05-11-2019 08:49:51.709 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.3.8.Final}
+05-11-2019 08:49:51.712 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+05-11-2019 08:49:52.444 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer invoked and the body DEV message
+05-11-2019 09:25:46.254 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.learncamel.LearncamelSpringbootApplicationTests], using SpringBootContextLoader
+05-11-2019 09:25:46.344 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.learncamel.LearncamelSpringbootApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+05-11-2019 09:25:46.346 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.learncamel.LearncamelSpringbootApplicationTests]: LearncamelSpringbootApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+05-11-2019 09:25:46.615 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.learncamel.LearncamelSpringbootApplication for test class com.learncamel.LearncamelSpringbootApplicationTests
+05-11-2019 09:25:46.794 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+05-11-2019 09:25:46.848 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1bb266b3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@306cf3ea, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2beee7ff, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5136d012, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5939a379, org.springframework.test.context.transaction.TransactionalTestExecutionListener@e1de817, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@52102734, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3541cb24, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2177849e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@40cb8df7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@13b13b5d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2892dae4]
+05-11-2019 09:25:47.920 [main] INFO  c.l.LearncamelSpringbootApplicationTests.logStarting - Starting LearncamelSpringbootApplicationTests on DESKTOP-NIQJ2O8 with PID 15816 (started by Anil Sandrapati in C:\Users\Anil Sandrapati\Downloads\simple-rest-api\learncamel-springboot)
+05-11-2019 09:25:47.921 [main] INFO  c.l.LearncamelSpringbootApplicationTests.logStartupProfileInfo - The following profiles are active: dev
+05-11-2019 09:25:51.225 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$d2e45f34] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+05-11-2019 09:25:52.851 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+05-11-2019 09:25:53.661 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 195, classpath: 1)
+05-11-2019 09:25:55.130 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - Starting the camel route
+05-11-2019 09:25:55.255 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - ending the camel route
+05-11-2019 09:25:55.258 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+05-11-2019 09:25:55.262 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+05-11-2019 09:25:55.289 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.24.0 (CamelContext: camel-1) is starting
+05-11-2019 09:25:55.292 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+05-11-2019 09:25:56.011 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+05-11-2019 09:25:56.168 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: timer://hello?period=10s
+05-11-2019 09:25:56.176 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 1 routes, of which 1 are started
+05-11-2019 09:25:56.181 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.24.0 (CamelContext: camel-1) started in 0.891 seconds
+05-11-2019 09:25:56.192 [main] INFO  c.l.LearncamelSpringbootApplicationTests.logStarted - Started LearncamelSpringbootApplicationTests in 9.228 seconds (JVM running for 11.334)
+05-11-2019 09:25:56.631 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.learncamel.route.SimpleCamelRouteTest], using SpringBootContextLoader
+05-11-2019 09:25:56.633 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.learncamel.route.SimpleCamelRouteTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+05-11-2019 09:25:56.634 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.learncamel.route.SimpleCamelRouteTest]: SimpleCamelRouteTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+05-11-2019 09:25:56.661 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.learncamel.LearncamelSpringbootApplication for test class com.learncamel.route.SimpleCamelRouteTest
+05-11-2019 09:25:56.668 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+05-11-2019 09:25:56.701 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7f79edee, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1ca610a0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@49433c98, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@b5c6a30, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3bfae028, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1775c4e7, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@47829d6d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2f677247, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@43f03c23, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7a1b8a46, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2921199d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3d40a3b4]
+05-11-2019 09:25:56.778 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.prepareTestInstance - @RunWith(CamelSpringBootRunner.class) preparing: class com.learncamel.route.SimpleCamelRouteTest
+05-11-2019 09:25:56.870 [main] INFO  c.l.route.SimpleCamelRouteTest.logStarting - Starting SimpleCamelRouteTest on DESKTOP-NIQJ2O8 with PID 15816 (started by Anil Sandrapati in C:\Users\Anil Sandrapati\Downloads\simple-rest-api\learncamel-springboot)
+05-11-2019 09:25:56.873 [main] INFO  c.l.route.SimpleCamelRouteTest.logStartupProfileInfo - The following profiles are active: dev
+05-11-2019 09:25:57.226 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer invoked and the body DEV message
+05-11-2019 09:25:57.851 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$d2e45f34] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+05-11-2019 09:25:58.529 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+05-11-2019 09:25:58.881 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 195, classpath: 1)
+05-11-2019 09:25:59.918 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - Starting the camel route
+05-11-2019 09:25:59.927 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - ending the camel route
+05-11-2019 09:25:59.929 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+05-11-2019 09:25:59.930 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+05-11-2019 09:25:59.946 [main] INFO  c.l.route.SimpleCamelRouteTest.logStarted - Started SimpleCamelRouteTest in 3.153 seconds (JVM running for 15.088)
+05-11-2019 09:25:59.957 [main] INFO  o.a.c.t.s.CamelAnnotationsHandler.execute - Setting shutdown timeout to [10 SECONDS] on CamelContext with name [camelContext].
+05-11-2019 09:25:59.983 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.beforeTestMethod - @RunWith(CamelSpringBootRunner.class) before: class com.learncamel.route.SimpleCamelRouteTest.testMoveFile
+05-11-2019 09:25:59.985 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.beforeTestMethod - Initialized CamelSpringBootRunner now ready to start CamelContext
+05-11-2019 09:25:59.989 [main] INFO  o.a.c.t.s.CamelAnnotationsHandler.execute - Starting CamelContext with name [camelContext].
+05-11-2019 09:25:59.997 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.24.0 (CamelContext: camel-2) is starting
+05-11-2019 09:26:00.000 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+05-11-2019 09:26:00.160 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+05-11-2019 09:26:00.207 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route2 started and consuming from: timer://hello?period=10s
+05-11-2019 09:26:00.211 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 1 routes, of which 1 are started
+05-11-2019 09:26:00.218 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.24.0 (CamelContext: camel-2) started in 0.221 seconds
+05-11-2019 09:26:01.212 [Camel (camel-2) thread #2 - timer://hello] INFO  route2.log - Timer invoked and the body DEV message
+05-11-2019 09:26:03.249 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.24.0 (CamelContext: camel-2) is shutting down
+05-11-2019 09:26:03.254 [main] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Starting to graceful shutdown 1 routes (timeout 10 seconds)
+05-11-2019 09:26:03.272 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 10 seconds. Inflights per route: [route2 = 1]
+05-11-2019 09:26:03.279 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-1-2, fromRouteId=route2, routeId=route2, nodeId=pollEnrich2, elapsed=0, duration=2067]
+05-11-2019 09:26:04.280 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 9 seconds. Inflights per route: [route2 = 1]
+05-11-2019 09:26:04.280 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-1-2, fromRouteId=route2, routeId=route2, nodeId=pollEnrich2, elapsed=0, duration=3068]
+05-11-2019 09:26:05.281 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 8 seconds. Inflights per route: [route2 = 1]
+05-11-2019 09:26:05.281 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-1-2, fromRouteId=route2, routeId=route2, nodeId=pollEnrich2, elapsed=0, duration=4069]
+05-11-2019 09:26:06.281 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 7 seconds. Inflights per route: [route2 = 1]
+05-11-2019 09:26:06.281 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-1-2, fromRouteId=route2, routeId=route2, nodeId=pollEnrich2, elapsed=0, duration=5069]
+05-11-2019 09:26:07.198 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer invoked and the body DEV message
+05-11-2019 09:26:07.281 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 6 seconds. Inflights per route: [route2 = 1]
+05-11-2019 09:26:07.281 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-1-2, fromRouteId=route2, routeId=route2, nodeId=pollEnrich2, elapsed=0, duration=6069]
+05-11-2019 09:26:08.285 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 5 seconds. Inflights per route: [route2 = 1]
+05-11-2019 09:26:08.285 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-1-2, fromRouteId=route2, routeId=route2, nodeId=pollEnrich2, elapsed=0, duration=7073]
+05-11-2019 09:26:09.286 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 4 seconds. Inflights per route: [route2 = 1]
+05-11-2019 09:26:09.286 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-1-2, fromRouteId=route2, routeId=route2, nodeId=pollEnrich2, elapsed=0, duration=8074]
+05-11-2019 09:26:10.287 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 3 seconds. Inflights per route: [route2 = 1]
+05-11-2019 09:26:10.289 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-1-2, fromRouteId=route2, routeId=route2, nodeId=pollEnrich2, elapsed=0, duration=9075]
+05-11-2019 09:26:11.289 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 2 seconds. Inflights per route: [route2 = 1]
+05-11-2019 09:26:11.289 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-1-2, fromRouteId=route2, routeId=route2, nodeId=pollEnrich2, elapsed=0, duration=10077]
+05-11-2019 09:26:12.290 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 1 seconds. Inflights per route: [route2 = 1]
+05-11-2019 09:26:12.290 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-1-2, fromRouteId=route2, routeId=route2, nodeId=pollEnrich2, elapsed=0, duration=11078]
+05-11-2019 09:26:13.271 [Camel (camel-2) thread #3 - ShutdownTask] WARN  o.a.c.impl.DefaultShutdownStrategy.run - Interrupted while waiting during graceful shutdown, will force shutdown now.
+05-11-2019 09:26:13.290 [main] WARN  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Timeout occurred during graceful shutdown. Forcing the routes to be shutdown now. Notice: some resources may still be running as graceful shutdown did not complete successfully.
+05-11-2019 09:26:13.291 [Camel (camel-2) thread #3 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Route: route2 shutdown complete, was consuming from: timer://hello?period=10s
+05-11-2019 09:26:13.291 [main] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-1-2, fromRouteId=route2, routeId=route2, nodeId=pollEnrich2, elapsed=0, duration=12079]
+05-11-2019 09:26:13.292 [main] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Graceful shutdown of 1 routes completed in 10 seconds
+05-11-2019 09:26:13.300 [main] WARN  o.a.c.impl.DefaultInflightRepository.doStop - Shutting down while there are still 1 inflight exchanges.
+05-11-2019 09:26:13.323 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.24.0 (CamelContext: camel-2) uptime 13.327 seconds
+05-11-2019 09:26:13.324 [main] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.24.0 (CamelContext: camel-2) is shutdown in 10.075 seconds
+05-11-2019 09:26:13.336 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+05-11-2019 09:26:13.340 [main] INFO  c.l.route.SimpleCamelRouteTest.afterTestMethod - ********************************************************************************
+05-11-2019 09:26:13.341 [main] INFO  c.l.route.SimpleCamelRouteTest.afterTestMethod - Testing done: testMoveFile(com.learncamel.route.SimpleCamelRouteTest)
+05-11-2019 09:26:13.341 [main] INFO  c.l.route.SimpleCamelRouteTest.afterTestMethod - Took: 13.120 seconds (13120 millis)
+05-11-2019 09:26:13.345 [main] INFO  c.l.route.SimpleCamelRouteTest.afterTestMethod - ********************************************************************************
+05-11-2019 09:26:13.345 [main] INFO  o.a.c.t.s.CamelSpringBootExecutionListener.afterTestMethod - @RunWith(CamelSpringBootRunner.class) after: class com.learncamel.route.SimpleCamelRouteTest.testMoveFile
+05-11-2019 09:26:13.382 [Thread-3] INFO  o.a.camel.spring.SpringCamelContext.doStop - Apache Camel 2.24.0 (CamelContext: camel-1) is shutting down
+05-11-2019 09:26:13.382 [Thread-3] INFO  o.a.c.impl.DefaultShutdownStrategy.doShutdown - Starting to graceful shutdown 1 routes (timeout 300 seconds)
+05-11-2019 09:26:13.387 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 300 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:13.388 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=6190]
+05-11-2019 09:26:13.751 [Camel (camel-2) thread #2 - timer://hello] WARN  o.a.c.component.timer.TimerConsumer.log - Error processing exchange. Exchange[ID-DESKTOP-NIQJ2O8-1572926153409-1-2]. Caused by: [java.util.concurrent.RejectedExecutionException - Run not allowed as ShutdownStrategy is forcing shutting down, will reject executing exchange: Exchange[ID-DESKTOP-NIQJ2O8-1572926153409-1-2]]
+java.util.concurrent.RejectedExecutionException: Run not allowed as ShutdownStrategy is forcing shutting down, will reject executing exchange: Exchange[ID-DESKTOP-NIQJ2O8-1572926153409-1-2]
+	at org.apache.camel.processor.CamelInternalProcessor.continueProcessing(CamelInternalProcessor.java:289)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:137)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.timer.TimerConsumer.sendTimerExchange(TimerConsumer.java:197)
+	at org.apache.camel.component.timer.TimerConsumer$1.run(TimerConsumer.java:79)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+05-11-2019 09:26:14.388 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 299 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:14.389 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=7191]
+05-11-2019 09:26:15.389 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 298 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:15.389 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=8191]
+05-11-2019 09:26:16.390 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 297 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:16.390 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=9192]
+05-11-2019 09:26:17.391 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 296 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:17.391 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=10193]
+05-11-2019 09:26:18.392 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 295 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:18.392 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=11194]
+05-11-2019 09:26:19.393 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 294 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:19.393 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=12195]
+05-11-2019 09:26:20.393 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 293 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:20.393 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=13195]
+05-11-2019 09:26:21.393 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 292 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:21.393 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=14195]
+05-11-2019 09:26:22.394 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 291 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:22.394 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=15196]
+05-11-2019 09:26:23.396 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 290 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:23.396 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=16198]
+05-11-2019 09:26:24.397 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 289 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:24.397 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=17199]
+05-11-2019 09:26:25.397 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 288 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:25.397 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=18199]
+05-11-2019 09:26:26.398 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 287 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:26.398 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=19200]
+05-11-2019 09:26:27.398 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 286 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:27.398 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=20200]
+05-11-2019 09:26:28.398 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 285 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:28.401 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=21203]
+05-11-2019 09:26:29.403 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 284 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:29.403 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=22205]
+05-11-2019 09:26:30.404 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 283 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:30.404 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=23206]
+05-11-2019 09:26:31.405 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 282 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:31.405 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=24207]
+05-11-2019 09:26:32.406 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 281 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:32.406 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=25208]
+05-11-2019 09:26:33.406 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 280 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:33.406 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=26208]
+05-11-2019 09:26:34.407 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 279 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:34.407 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=27209]
+05-11-2019 09:26:35.408 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 278 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:35.408 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=28210]
+05-11-2019 09:26:36.408 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 277 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:36.408 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=29210]
+05-11-2019 09:26:37.409 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 276 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:37.409 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=30211]
+05-11-2019 09:26:38.413 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 275 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:38.414 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=31216]
+05-11-2019 09:26:39.414 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 274 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:39.414 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=32216]
+05-11-2019 09:26:40.414 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 273 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:40.414 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=33216]
+05-11-2019 09:26:41.415 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 272 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:41.417 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=34219]
+05-11-2019 09:26:42.418 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.run - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 271 seconds. Inflights per route: [route1 = 1]
+05-11-2019 09:26:42.418 [Camel (camel-1) thread #4 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy.logInflightExchanges - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-NIQJ2O8-1572926153409-0-3, fromRouteId=route1, routeId=route1, nodeId=pollEnrich1, elapsed=0, duration=35220]
+05-11-2019 09:27:17.171 [main] INFO  c.l.LearncamelSpringbootApplication.logStarting - Starting LearncamelSpringbootApplication on DESKTOP-NIQJ2O8 with PID 9572 (started by Anil Sandrapati in C:\Users\Anil Sandrapati\Downloads\simple-rest-api\learncamel-springboot)
+05-11-2019 09:27:17.208 [main] INFO  c.l.LearncamelSpringbootApplication.logStartupProfileInfo - The following profiles are active: dev
+05-11-2019 09:27:21.973 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$78dc0e0c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+05-11-2019 09:27:23.443 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8181 (http)
+05-11-2019 09:27:23.476 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8181"]
+05-11-2019 09:27:23.504 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+05-11-2019 09:27:23.505 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.26]
+05-11-2019 09:27:24.099 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+05-11-2019 09:27:24.099 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 6673 ms
+05-11-2019 09:27:24.982 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+05-11-2019 09:27:25.601 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 195, classpath: 1)
+05-11-2019 09:27:26.641 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - Starting the camel route
+05-11-2019 09:27:26.824 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - ending the camel route
+05-11-2019 09:27:26.826 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+05-11-2019 09:27:26.829 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+05-11-2019 09:27:26.855 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.24.0 (CamelContext: camel-1) is starting
+05-11-2019 09:27:26.863 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+05-11-2019 09:27:27.388 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+05-11-2019 09:27:27.517 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: timer://hello?period=10s
+05-11-2019 09:27:27.519 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 1 routes, of which 1 are started
+05-11-2019 09:27:27.525 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.24.0 (CamelContext: camel-1) started in 0.666 seconds
+05-11-2019 09:27:27.530 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8181"]
+05-11-2019 09:27:27.603 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8181 (http) with context path ''
+05-11-2019 09:27:27.610 [main] INFO  c.l.LearncamelSpringbootApplication.logStarted - Started LearncamelSpringbootApplication in 12.357 seconds (JVM running for 14.84)
+05-11-2019 09:27:27.821 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.3.8.Final}
+05-11-2019 09:27:27.827 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+05-11-2019 09:27:28.546 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer invoked and the body DEV message
+05-11-2019 09:29:08.272 [main] INFO  c.l.LearncamelSpringbootApplication.logStarting - Starting LearncamelSpringbootApplication on DESKTOP-NIQJ2O8 with PID 15244 (started by Anil Sandrapati in C:\Users\Anil Sandrapati\Downloads\simple-rest-api\learncamel-springboot)
+05-11-2019 09:29:08.279 [main] INFO  c.l.LearncamelSpringbootApplication.logStartupProfileInfo - The following profiles are active: dev
+05-11-2019 09:29:13.365 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$7cc24c1d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+05-11-2019 09:29:15.070 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8181 (http)
+05-11-2019 09:29:15.118 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8181"]
+05-11-2019 09:29:15.148 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+05-11-2019 09:29:15.149 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.26]
+05-11-2019 09:29:15.820 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+05-11-2019 09:29:15.821 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 7342 ms
+05-11-2019 09:29:16.677 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+05-11-2019 09:29:17.533 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 195, classpath: 1)
+05-11-2019 09:29:18.448 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - Starting the camel route
+05-11-2019 09:29:18.604 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - ending the camel route
+05-11-2019 09:29:18.611 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+05-11-2019 09:29:18.612 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+05-11-2019 09:29:18.643 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.24.0 (CamelContext: camel-1) is starting
+05-11-2019 09:29:18.647 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+05-11-2019 09:29:19.329 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+05-11-2019 09:29:19.469 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: timer://hello?period=10s
+05-11-2019 09:29:19.471 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 1 routes, of which 1 are started
+05-11-2019 09:29:19.474 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.24.0 (CamelContext: camel-1) started in 0.835 seconds
+05-11-2019 09:29:19.477 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8181"]
+05-11-2019 09:29:19.528 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8181 (http) with context path ''
+05-11-2019 09:29:19.539 [main] INFO  c.l.LearncamelSpringbootApplication.logStarted - Started LearncamelSpringbootApplication in 13.047 seconds (JVM running for 14.738)
+05-11-2019 09:29:19.836 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.3.8.Final}
+05-11-2019 09:29:19.842 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+05-11-2019 09:29:20.493 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer invoked and the body DEV message
+05-11-2019 09:41:14.443 [main] INFO  c.l.LearncamelSpringbootApplication.logStarting - Starting LearncamelSpringbootApplication on DESKTOP-NIQJ2O8 with PID 18712 (started by Anil Sandrapati in C:\Users\Anil Sandrapati\Downloads\simple-rest-api\learncamel-springboot)
+05-11-2019 09:41:14.450 [main] INFO  c.l.LearncamelSpringbootApplication.logStartupProfileInfo - The following profiles are active: dev
+05-11-2019 09:41:18.373 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$5d18c3e5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+05-11-2019 09:41:31.943 [main] INFO  c.l.LearncamelSpringbootApplication.logStarting - Starting LearncamelSpringbootApplication on DESKTOP-NIQJ2O8 with PID 4088 (started by Anil Sandrapati in C:\Users\Anil Sandrapati\Downloads\simple-rest-api\learncamel-springboot)
+05-11-2019 09:41:31.950 [main] INFO  c.l.LearncamelSpringbootApplication.logStartupProfileInfo - The following profiles are active: dev
+05-11-2019 09:41:35.546 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$e0cd1fc0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+05-11-2019 09:41:36.446 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8181 (http)
+05-11-2019 09:41:36.489 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8181"]
+05-11-2019 09:41:36.515 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+05-11-2019 09:41:36.516 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.26]
+05-11-2019 09:41:37.063 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+05-11-2019 09:41:37.064 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4939 ms
+05-11-2019 09:41:38.037 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+05-11-2019 09:41:38.610 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 195, classpath: 1)
+05-11-2019 09:41:39.344 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - Starting the camel route
+05-11-2019 09:41:39.476 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - ending the camel route
+05-11-2019 09:41:39.478 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+05-11-2019 09:41:39.478 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+05-11-2019 09:41:39.496 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.24.0 (CamelContext: camel-1) is starting
+05-11-2019 09:41:39.499 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+05-11-2019 09:41:40.329 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+05-11-2019 09:41:40.444 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: timer://hello?period=10s
+05-11-2019 09:41:40.447 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 1 routes, of which 1 are started
+05-11-2019 09:41:40.449 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.24.0 (CamelContext: camel-1) started in 0.951 seconds
+05-11-2019 09:41:40.452 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8181"]
+05-11-2019 09:41:40.500 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8181 (http) with context path ''
+05-11-2019 09:41:40.510 [main] INFO  c.l.LearncamelSpringbootApplication.logStarted - Started LearncamelSpringbootApplication in 9.837 seconds (JVM running for 11.805)
+05-11-2019 09:41:40.750 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.3.8.Final}
+05-11-2019 09:41:40.755 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+05-11-2019 09:41:41.460 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer invoked and the body DEV message
+05-11-2019 09:43:29.664 [main] INFO  c.l.LearncamelSpringbootApplication.logStarting - Starting LearncamelSpringbootApplication on DESKTOP-NIQJ2O8 with PID 19340 (started by Anil Sandrapati in C:\Users\Anil Sandrapati\Downloads\simple-rest-api\learncamel-springboot)
+05-11-2019 09:43:29.672 [main] INFO  c.l.LearncamelSpringbootApplication.logStartupProfileInfo - The following profiles are active: dev
+05-11-2019 09:43:33.564 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$7ae05f20] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+05-11-2019 09:43:34.867 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8181 (http)
+05-11-2019 09:43:34.911 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8181"]
+05-11-2019 09:43:34.943 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+05-11-2019 09:43:34.944 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.26]
+05-11-2019 09:43:35.352 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+05-11-2019 09:43:35.353 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 5510 ms
+05-11-2019 09:43:36.129 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+05-11-2019 09:43:36.854 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 195, classpath: 1)
+05-11-2019 09:43:37.762 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - Starting the camel route
+05-11-2019 09:43:37.893 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - ending the camel route
+05-11-2019 09:43:37.895 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+05-11-2019 09:43:37.896 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+05-11-2019 09:43:37.918 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.24.0 (CamelContext: camel-1) is starting
+05-11-2019 09:43:37.921 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+05-11-2019 09:43:38.479 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+05-11-2019 09:43:38.637 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: timer://hello?period=10s
+05-11-2019 09:43:38.640 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 1 routes, of which 1 are started
+05-11-2019 09:43:38.642 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.24.0 (CamelContext: camel-1) started in 0.724 seconds
+05-11-2019 09:43:38.645 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8181"]
+05-11-2019 09:43:38.694 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8181 (http) with context path ''
+05-11-2019 09:43:38.699 [main] INFO  c.l.LearncamelSpringbootApplication.logStarted - Started LearncamelSpringbootApplication in 10.352 seconds (JVM running for 11.981)
+05-11-2019 09:43:38.891 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.3.8.Final}
+05-11-2019 09:43:38.893 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+05-11-2019 09:43:39.653 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer invoked and the body DEV message
+05-11-2019 09:44:33.205 [main] INFO  c.l.LearncamelSpringbootApplication.logStarting - Starting LearncamelSpringbootApplication on DESKTOP-NIQJ2O8 with PID 11504 (started by Anil Sandrapati in C:\Users\Anil Sandrapati\Downloads\simple-rest-api\learncamel-springboot)
+05-11-2019 09:44:33.213 [main] INFO  c.l.LearncamelSpringbootApplication.logStartupProfileInfo - The following profiles are active: dev
+05-11-2019 09:44:36.976 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$71784193] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+05-11-2019 09:44:38.050 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8181 (http)
+05-11-2019 09:44:38.096 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8181"]
+05-11-2019 09:44:38.129 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+05-11-2019 09:44:38.131 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.26]
+05-11-2019 09:44:38.596 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+05-11-2019 09:44:38.596 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 5187 ms
+05-11-2019 09:44:39.302 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+05-11-2019 09:44:39.912 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 195, classpath: 1)
+05-11-2019 09:44:40.664 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - Starting the camel route
+05-11-2019 09:44:40.803 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - ending the camel route
+05-11-2019 09:44:40.804 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+05-11-2019 09:44:40.806 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+05-11-2019 09:44:40.830 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.24.0 (CamelContext: camel-1) is starting
+05-11-2019 09:44:40.832 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+05-11-2019 09:44:41.521 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+05-11-2019 09:44:41.659 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: timer://hello?period=10s
+05-11-2019 09:44:41.662 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 1 routes, of which 1 are started
+05-11-2019 09:44:41.666 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.24.0 (CamelContext: camel-1) started in 0.835 seconds
+05-11-2019 09:44:41.669 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8181"]
+05-11-2019 09:44:41.711 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8181 (http) with context path ''
+05-11-2019 09:44:41.719 [main] INFO  c.l.LearncamelSpringbootApplication.logStarted - Started LearncamelSpringbootApplication in 9.848 seconds (JVM running for 11.452)
+05-11-2019 09:44:41.929 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.3.8.Final}
+05-11-2019 09:44:41.933 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+05-11-2019 09:44:42.677 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer invoked and the body DEV message
+05-11-2019 09:45:49.535 [main] INFO  c.l.LearncamelSpringbootApplication.logStarting - Starting LearncamelSpringbootApplication on DESKTOP-NIQJ2O8 with PID 6524 (started by Anil Sandrapati in C:\Users\Anil Sandrapati\Downloads\simple-rest-api\learncamel-springboot)
+05-11-2019 09:45:49.541 [main] INFO  c.l.LearncamelSpringbootApplication.logStartupProfileInfo - The following profiles are active: dev
+05-11-2019 09:45:54.411 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$f47eeacb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+05-11-2019 09:45:55.544 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8181 (http)
+05-11-2019 09:45:55.591 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8181"]
+05-11-2019 09:45:55.616 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+05-11-2019 09:45:55.617 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.26]
+05-11-2019 09:45:55.998 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+05-11-2019 09:45:55.999 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 6147 ms
+05-11-2019 09:45:56.879 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+05-11-2019 09:45:57.533 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 195, classpath: 1)
+05-11-2019 09:45:58.199 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - Starting the camel route
+05-11-2019 09:45:58.362 [main] INFO  c.learncamel.route.SimpleCamelRoute.configure - ending the camel route
+05-11-2019 09:45:58.363 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+05-11-2019 09:45:58.364 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+05-11-2019 09:45:58.381 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.24.0 (CamelContext: camel-1) is starting
+05-11-2019 09:45:58.384 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+05-11-2019 09:45:58.912 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+05-11-2019 09:45:59.043 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: timer://hello?period=10s
+05-11-2019 09:45:59.046 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 1 routes, of which 1 are started
+05-11-2019 09:45:59.048 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.24.0 (CamelContext: camel-1) started in 0.667 seconds
+05-11-2019 09:45:59.052 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8181"]
+05-11-2019 09:45:59.112 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8181 (http) with context path ''
+05-11-2019 09:45:59.122 [main] INFO  c.l.LearncamelSpringbootApplication.logStarted - Started LearncamelSpringbootApplication in 11.923 seconds (JVM running for 14.348)
+05-11-2019 09:45:59.358 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.3.8.Final}
+05-11-2019 09:45:59.360 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+05-11-2019 09:46:00.060 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer invoked and the body DEV message

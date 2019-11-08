@@ -1,0 +1,50 @@
+spring:
+  profiles:
+    active: dev
+
+server:
+  port: 8181
+
+#camel.springboot.shudownTimeout:2
+#camel:
+#  springboot:
+#    shudownTimeout:2
+
+---
+spring:
+  profiles: mock
+
+startRoute: direct:input
+fromRoute: file:data/input?delete=true&readLock=none
+toRoute1: mock:output
+
+message: mock message
+---
+---
+spring:
+  profiles: dev
+
+startRoute: timer:hello?period=10s
+fromRoute: file:data/input?delete=true&readLock=none
+toRoute1: file:data/output
+
+message: DEV message
+---
+spring:
+  profiles: stage
+
+startRoute: timer:hello?period=10s
+fromRoute: file:data/input?delete=true&readLock=none
+toRoute1: file:data/output
+
+message: STAGE message
+---
+spring:
+  profiles: prod
+
+startRoute: timer:hello?period=10s
+fromRoute: file:data/input?delete=true&readLock=none
+toRoute1: file:data/output
+
+message: PRODUCTION message
+---
